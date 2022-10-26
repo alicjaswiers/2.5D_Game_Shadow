@@ -27,10 +27,11 @@ mesh = SubResource( 2 )
 transform = Transform( 1, 1.81899e-12, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="CollisionShape" type="CollisionShape" parent="MeshInstance/LaserArea"]
-transform = Transform( 1, 5.55112e-16, 0, -5.55112e-16, 1, 0, 0, 0, 1, 0.11497, 0.0126119, 0 )
+transform = Transform( 1, 0, 0, -5.82867e-16, 1, 0, 0, 0, 1, 0.11497, 0.00273572, 0 )
 shape = SubResource( 3 )
 
 [node name="StaticBody" type="StaticBody" parent="MeshInstance"]
 
 [node name="CollisionShape" type="CollisionShape" parent="MeshInstance/StaticBody"]
+transform = Transform( 1.1, 0, 0, 0, 1.1, 0, 0, 0, 1.1, 0, 0, 0 )
 shape = SubResource( 4 )

@@ -23,7 +23,7 @@ glow_hdr_scale = 2.08
 [sub_resource type="SpatialMaterial" id=3]
 
 [node name="level_2" type="Spatial"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7.20854, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 19.1065, 0 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 2 )
@@ -34,76 +34,58 @@ material_override = SubResource( 3 )
 use_collision = true
 
 [node name="CSGBox" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9867, -3.53243, 5.54204 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9867, -3.53243, 23.1318 )
 width = 64.2253
 height = 7.67727
-depth = 57.6912
+depth = 7.59881
 
 [node name="CSGBox2" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.252, -5.3085, 21.3446 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.252, -5.3085, 20.3778 )
 width = 20.3864
 height = 13.8351
-depth = 34.3866
+depth = 7.03143
 
 [node name="CSGBox3" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0012, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9743, -37.4083, -16.847 )
+width = 15.1838
+height = 117.509
+depth = 23.5572
 
 [node name="CSGBox4" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5569, 8.91341, -9.7326 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.7864, -34.4748, -5.66457 )
 width = 3.04098
-height = 22.6103
+height = 112.101
 depth = 3.90897
 
 [node name="CSGBox5" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -22.9984, 10.9189, -9.7279 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.5041, -47.1446, -3.35228 )
 width = 3.04098
-height = 22.6103
+height = 137.541
 depth = 3.90897
 
 [node name="CSGBox6" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -15.48, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
-
-[node name="CSGBox7" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.71398, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
-
-[node name="CSGBox8" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.887505, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
-
-[node name="CSGBox9" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0645, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.16958, -4.7527, -18.457 )
+width = 14.4528
+height = 37.7204
+depth = 17.217
 
 [node name="CSGBox10" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.7301, 10.9189, -9.7279 )
-width = 3.04098
-height = 22.6103
-depth = 3.90897
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.7301, -13.1795, -26.2651 )
+width = 18.5197
+height = 70.4585
+depth = 11.0456
 
 [node name="CSGBox11" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1446, 20.9084, -17.818 )
-width = 56.9557
-height = 2.77294
-depth = 28.3088
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -38.6197, -60.0941, -21.9902 )
+width = 16.0568
+height = 135.684
+depth = 11.2883
 
 [node name="CSGBox12" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 57.3329, -8.94175, 7.74305 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 57.1303, -8.94175, 18.1268 )
 width = 20.3864
-height = 16.0062
-depth = 34.3866
+height = 6.92984
+depth = 9.95193
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, -5.02101, 1.49233, 0 )
@@ -125,7 +107,7 @@ height = 1.998
 depth = 1.82807
 
 [node name="Laser" parent="Spatial" instance=ExtResource( 3 )]
-transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 9.29926, 1.78487, 0 )
+transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 9.29926, 1.78487, 0.622186 )
 
 [node name="CSGBox5" type="CSGBox" parent="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.15979, 2.86913, 0.858222 )
@@ -148,9 +130,6 @@ width = 3.02876
 height = 1.07314
 depth = 3.08257
 
-[node name="Laser2" parent="Spatial" instance=ExtResource( 3 )]
-transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 22.3841, 1.78487, 0 )
-
 [node name="CSGBox8" type="CSGBox" parent="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 23.115, 3.24093, 0.858222 )
 use_collision = true
@@ -164,3 +143,13 @@ use_collision = true
 width = 3.38842
 height = 1.998
 depth = 1.82807
+
+[node name="Laser2" parent="Spatial" instance=ExtResource( 3 )]
+transform = Transform( 0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 23.1774, 1.78487, 0.622186 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.218995, 0.975726, 0, -0.975726, 0.218995, 0, 67.5994, 63.9198 )
+light_color = Color( 0.501961, 0.184314, 0.301961, 1 )
+light_indirect_energy = 4.523
+shadow_enabled = true
+shadow_bias = 1.938

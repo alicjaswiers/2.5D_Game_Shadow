@@ -27,6 +27,9 @@ func _physics_process(delta):
 	if Input.is_action_just_released("move_right") or move_dir == 0:
 		if !isJumping:
 			anim.play("Idle")
+	if Input.is_action_pressed("punch"):
+		if !isJumping:
+			anim.play("Punching")
 
 	move_and_slide(Vector3(move_dir * move_speed, y_velo, 0), Vector3(0, 1, 0))
 
@@ -60,4 +63,5 @@ func flip():
 
 func _on_HitArea_area_entered(area):
 	if area.name == "LaserArea":
+		yield(anim, "DyingBackwards")
 		get_tree().reload_current_scene()
