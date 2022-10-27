@@ -53,7 +53,7 @@ tracks/0/keys = {
 script = ExtResource( 1 )
 
 [node name="KinematicBody" type="KinematicBody" parent="."]
-transform = Transform( 0.999659, -0.000515079, -0.0260583, 0.000515623, 1, 1.41534e-05, 0.0260581, -2.77248e-05, 0.999659, 3.25181, -0.00255831, -0.00556874 )
+transform = Transform( -0.919733, 0.00921161, 0.392436, -0.0061084, 0.999268, -0.0377717, -0.392496, -0.037137, -0.919002, 1.55752, -0.00122251, -0.00731699 )
 
 [node name="MeshInstance" type="MeshInstance" parent="KinematicBody"]
 transform = Transform( 1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0 )
@@ -69,8 +69,8 @@ shape = SubResource( 13 )
 curve = SubResource( 10 )
 
 [node name="PathFollow" type="PathFollow" parent="Path"]
-transform = Transform( 0.999659, -0.000515079, -0.0260583, 0.000515623, 1, 1.41534e-05, 0.0260581, -2.77248e-05, 0.999659, 3.25181, -0.00255831, -0.00556874 )
-offset = 5.25035
+transform = Transform( -0.919733, 0.00921161, 0.392436, -0.0061084, 0.999268, -0.0377717, -0.392496, -0.037137, -0.919002, 1.55752, -0.00122251, -0.00731699 )
+offset = 6.94515
 
 [node name="RemoteTransform" type="RemoteTransform" parent="Path/PathFollow"]
 transform = Transform( 1, 1.16415e-10, 0, 0, 1, 0, 1.49012e-08, -2.91038e-11, 1, 0, 0, 0 )

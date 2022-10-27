@@ -64,13 +64,13 @@ height = 137.541
 depth = 3.90897
 
 [node name="CSGBox6" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.16958, -4.7527, -18.457 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.322519, -4.7527, -18.457 )
 width = 14.4528
 height = 37.7204
 depth = 17.217
 
 [node name="CSGBox10" type="CSGBox" parent="CSGCombiner"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.7301, -13.1795, -26.2651 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 24.4413, -13.1795, -26.2651 )
 width = 18.5197
 height = 70.4585
 depth = 11.0456

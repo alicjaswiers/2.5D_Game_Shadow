@@ -63,5 +63,4 @@ func flip():
 
 func _on_HitArea_area_entered(area):
 	if area.name == "LaserArea":
-		yield(anim, "DyingBackwards")
 		get_tree().reload_current_scene()
